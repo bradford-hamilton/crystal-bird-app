@@ -3,7 +3,7 @@ version: '2'
 services:
   app:
     build: .
-    image: crystal-experiment
+    image: crystal-bird-app
     command: amber watch
     environment:
       DATABASE_URL: postgres://admin:password@db:5432/crystal_experiment_development
@@ -18,7 +18,7 @@ services:
 
   migrate:
     build: .
-    image: crystal-experiment
+    image: crystal-bird-app
     command: bash -c 'while ! nc -q 1 db 5432 </dev/null; do sleep 1; done && amber db migrate seed'
     environment:
       DATABASE_URL: postgres://admin:password@db:5432/crystal_experiment_development
