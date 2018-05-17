@@ -1,17 +1,14 @@
-# crystal-experiment
-
-This project is powered by [Amber Framework](https://amberframework.org/).
+# crystal-bird-app
 
 ## Installation
 
-1. [Install required dependencies](https://github.com/amberframework/online-docs/blob/master/getting-started/quickstart/zero-to-deploy.md#install-crystal-and-amber)
-2. Run `shards install`
+1. Run `shards install`
 
 ## Usage
 
 To setup your database edit `database_url` inside `config/environments/development.yml` file.
 
-To edit your production settings use `amber encrypt`. [See encrypt command guide](https://github.com/amberframework/online-docs/blob/master/getting-started/cli/encrypt.md#encrypt-command)
+To edit your production settings use `amber encrypt`. [See Docs](https://amberframework.gitbook.io/amber/cli/encrypt)
 
 To run amber server in a **development** enviroment:
 
