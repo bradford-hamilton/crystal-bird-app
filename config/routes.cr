@@ -23,7 +23,7 @@ Amber::Server.configure do |app|
   end
 
   routes :web do
-    resources "/movies", MovieController
+    resources "/birds", BirdController
     get "/", HomeController, :index
   end
 

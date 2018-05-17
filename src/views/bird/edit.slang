@@ -1,3 +1,3 @@
-h1 New Movie
+h1 Edit Bird
 
 == render(partial: "_form.slang")

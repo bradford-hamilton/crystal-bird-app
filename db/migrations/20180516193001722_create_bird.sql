@@ -1,12 +1,12 @@
 -- +micrate Up
-CREATE TABLE movies (
+CREATE TABLE birds (
   id BIGSERIAL PRIMARY KEY,
   name VARCHAR,
-  release_year INT,
+  age INT,
   created_at TIMESTAMP,
   updated_at TIMESTAMP
 );
 
 
 -- +micrate Down
-DROP TABLE IF EXISTS movies;
+DROP TABLE IF EXISTS birds;
