@@ -58,4 +58,4 @@ docker-compose logs -f
 
 ## Contributors
 
-- [your-github-user](https://github.com/your-github-user) Bradford Lamson-Scribner - creator, maintainer
+- [bradford-hamilton](https://github.com/bradford-hamilton) Bradford Lamson-Scribner - creator, maintainer
