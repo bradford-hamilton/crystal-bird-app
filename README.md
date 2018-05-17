@@ -1,5 +1,7 @@
 # crystal-bird-app
 
+[https://crystal-bird-app.herokuapp.com/](https://crystal-bird-app.herokuapp.com/)
+
 ## Installation
 
 1. Run `shards install`
